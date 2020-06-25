@@ -8,6 +8,7 @@
 
 ## Data Analysis
 
+* [A/B Test Questions](data-analysis/a-b-test-questions.md)
 * [Untitled](data-analysis/untitled.md)
 
 ## Probability
