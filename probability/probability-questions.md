@@ -2,7 +2,7 @@
 
 **1.Suppose you toss a fair coin 400 times. What is the probability that you get at least 220 heads? Round your answer to the nearest percent. \(Similar questions: Toss a coin 1000 times, with 400 heads, is a fair coin or not\)**
 
-This is a central limit theorem questions. The expected value of a fair coin is 1/2 and variance is 1/4. Calculate Z score using algorithms 
+This is a central limit theorem questions. The expected value of a fair coin is 1/2 and variance is 1/4. Calculate Z score using algorithms $$Z =(x_i-\bar x)/s $$, then$$z = (220-200)/(\sqrt{400*1/4})=2$$, the probability that get at least 220 heads is 1-97.5%=2.5%, round the value to 2%. In the similar questions, using Z score of average number $$Z=(x_i-\mu)/(\sigma/\sqrt n) = (0.4-0.5)/$$ 
 
 **2. Two basketball teams, A and B, compete in seven games, winner is who wins 4 games first. The probability of A winning each game is 0.5, what is the probability that they have to play all 7 games to decide the winner?**
 
