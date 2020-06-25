@@ -60,13 +60,11 @@ P\(X\) = 12!/\(4!\*4!\*4!\)/3! =5775, divide by 3! because 3 teams are indisting
 
 
 
+**13. You call 2 UberX’s and 3 Lyfts. If the time that each takes to reach you is IID, what is the probability that all the Lyfts arrive first? What is the probability that all the UberX’s arrive first?**
 
-
-**11. You call 2 UberX’s and 3 Lyfts. If the time that each takes to reach you is IID, what is the probability that all the Lyfts arrive first? What is the probability that all the UberX’s arrive first?**
-
-
-
-
+ All Lyft come first$$P(1st=Lyft\cap 2st=Lyft\cap 3rd=Lyft)=3/5*2/4*1/3=1/10$$  
+All Uber come first  
+$$P(1st=Uber\cap 2st=Uber)=2/5*1/4=1/10$$ 
 
 **12. I write a program should print out all the numbers from 1 to 300, but prints out Fizz instead if the number is divisible by 3, Buzz instead if the number is divisible by 5, and FizzBuzz if the number is divisible by 3 and 5. What is the total number of numbers that is either Fizzed, Buzzed, or FizzBuzzed?**
 
