@@ -68,30 +68,19 @@ $$P(1st=Uber\cap 2st=Uber)=2/5*1/4=1/10$$
 
 **12. I write a program should print out all the numbers from 1 to 300, but prints out Fizz instead if the number is divisible by 3, Buzz instead if the number is divisible by 5, and FizzBuzz if the number is divisible by 3 and 5. What is the total number of numbers that is either Fizzed, Buzzed, or FizzBuzzed?**
 
-
-
-
-
-
+Count\(Fizzed\) = 300/3 = 100, Count\(Buzzed\) = 300/5 = 60, Count\(FizzBuzzed\) = 300/\(3\*5\)=20  
+Count\(Fizz or Buzzed or FizzBuzzed\) = Count\(Fizzed\) + Count\(Buzzed\) - Count\(FizzBuzzed\) = 100+60-20=140
 
 **13. On a dating site, users can select 5 out of 24 adjectives to describe themselves. A match is declared between two users if they match on at least 4 adjectives. If Alice and Bob randomly pick adjectives, what is the probability that they form a match?**
 
 
 
-
-
 **14. A lazy high school senior types up application and envelopes to n different colleges, but puts the applications randomly into the envelopes. What is the expected number of applications that went to the right college?**
-
-  
-
-
-
 
 
 
 **15. Let’s say you have a very tall father. On average, what would you expect the height of his son to be? Taller, equal, or shorter? What if you had a very short father?**
 
-  
 
 
 
