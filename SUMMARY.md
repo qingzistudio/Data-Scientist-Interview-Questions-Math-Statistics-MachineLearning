@@ -4,5 +4,17 @@
 
 ## Predictive Modeling
 
-* [Untitled](predictive-modeling/untitled.md)
+* [Predictive Modeling](predictive-modeling/untitled.md)
+
+## Data Analysis
+
+* [Untitled](data-analysis/untitled.md)
+
+## Probability
+
+* [Probability Questions](probability/probability-questions.md)
+
+## Product Metrics
+
+* [Untitled](product-metrics/untitled.md)
 
