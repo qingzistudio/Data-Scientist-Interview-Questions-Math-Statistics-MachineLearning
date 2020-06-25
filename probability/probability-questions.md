@@ -50,22 +50,13 @@ $$P(1st=Girl\cap2nd=Girl|\text{At least one is girl}) = \frac{P(1st=Girl\cap2nd=
 
 **10. You have a group of couples that decide to have children until they have their first girl, after which they stop having children. What is the expected gender ratio of the children that are born? What is the expected number of children each couple will have?**
 
-  
+Let X as an event of number of children each couple will have, Y as the sex of a children. then $$E(X) = 1*P(Y=Girl) + 2 *(Y=Boy\cap Y=Girl)+3*P(Y=Boy\cap Y=Boy \cap Y=Girl)+... =1*1/2+2*1/4+3*1/8+... =(1/2+1/4+1/8+...)+1/2*(1/2+2/4+4/16)=1+E(X)/2=>E(X)= 1/2$$ 
 
+**11. How many ways can you split 12 people into 3 teams of 4?**
 
+P\(X\) = 12!/\(4!\*4!\*4!\)/3! =5775, divide by 3! because 3 teams are indistinguishable  
 
-
-**9. How many ways can you split 12 people into 3 teams of 4?**
-
-  
-
-
-
-
-**10. Your hash function assigns each object to a number between 1:10, each with equal probability. With 10 objects, what is the probability of a hash collision? What is the expected number of hash collisions? What is the expected number of hashes that are unused.**
-
-  
-
+**12. Your hash function assigns each object to a number between 1:10, each with equal probability. With 10 objects, what is the probability of a hash collision? What is the expected number of hash collisions? What is the expected number of hashes that are unused.**
 
 
 
