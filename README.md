@@ -1,6 +1,6 @@
 # About
 
-I collected many interview questions and provided my solutions.
+I collected many interview questions and provided my solutions here.
 
 Content:
 
