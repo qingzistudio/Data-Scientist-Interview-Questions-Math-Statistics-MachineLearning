@@ -38,7 +38,9 @@ Yes, if you toss a biased coin twice, the results would be HH, HT, TH, TT, and P
 
 the probability that Bobo's lineage dies out equals to find the probability that Bob produce 0 offspring. let A as a event of offspring amount, then P\(A = 0\) = P\(A = 0\| A=0\)\*P\(A=0\) + P\(A=0\|A=1\)P\(A=1\) + P\(A=0\|A=2\)P\(A=2\) = 1/4+p/4 + 1/2\*p^2, then p=1/2 
 
-8. Given draws from a normal distribution with known parameters, how can you simulate draws from a uniform distribution?
+**8. Given draws from a normal distribution with known parameters, how can you simulate draws from a uniform distribution?**
+
+Use the technique called the probability integral transform\(universality of the uniform\), which plugs your draw into the CDF of the normal distribution with those parameters. universality of the uniform is 1\) when you plug a random variable into its own CDF to get uniform distribution, F\(X\) ~ U 2\) when plug a uniform into the inverse CDF of X, you get a random variable distributed like X
 
 
 

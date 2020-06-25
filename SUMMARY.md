@@ -4,7 +4,7 @@
 
 ## Predictive Modeling
 
-* [Predictive Modeling](predictive-modeling/untitled.md)
+* [Predictive Modeling](predictive-modeling/pm.md)
 
 ## Data Analysis
 
