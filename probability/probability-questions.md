@@ -34,11 +34,11 @@ Method 2: toss a die twice to create a vector \(first number, second number\), t
 
 Yes, if you toss a biased coin twice, the results would be HH, HT, TH, TT, and P\(HT\) = P\(TH\) no mater the coin is biased or not. Then you can make HT as H and TH as T to get a fair coin toss.
 
-**7. Bobo the amoeba has a 25%, 25%, and 50% chance of producing 0, 1, or 2 offspring, respectively. Each of Bobo’s descendants also have the same probabilities. What is the probability that Bobo’s lineage dies out?**
+**7. Bobo the amoeba has a 25%, 25%, and 50% chance of producing 0, 1, or 2 offspring, respectively. Each of Bobo’s descendants also have the same probabilities. What is the probability that Bobo’s lineage dies out? \[from 120 Data Scientist Interview Questions\]**
 
+the probability that Bobo's lineage dies out equals to find the probability that Bob produce 0 offspring. let A as a event of offspring amount, then P\(A = 0\) = P\(A = 0\| A=0\)\*P\(A=0\) + P\(A=0\|A=1\)P\(A=1\) + P\(A=0\|A=2\)P\(A=2\) = 1/4+p/4 + 1/2\*p^2, then p=1/2 
 
-
-
+8. Given draws from a normal distribution with known parameters, how can you simulate draws from a uniform distribution?
 
 
 
