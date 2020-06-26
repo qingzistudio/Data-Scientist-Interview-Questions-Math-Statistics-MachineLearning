@@ -58,7 +58,8 @@ P\(X\) = 12!/\(4!\*4!\*4!\)/3! =5775, divide by 3! because 3 teams are indisting
 
 **12. Your hash function assigns each object to a number between 1:10, each with equal probability. With 10 objects, what is the probability of a hash collision? What is the expected number of hash collisions? What is the expected number of hashes that are unused.**
 
-
+Let A be the event of at least on hash collision, then $$P(A) = 1-P(A^c)=1-\frac{10!}{10^{10}}\approx0.9996$$   
+Let H be the number of hash collision, N is the used number, then H = 10-N then $$E(N) = 10*(1-(1-1/10)^{10})\approx6.5132$$, the expected number of collision is E\(H\) = 10-E\(N\)
 
 **13. You call 2 UberX’s and 3 Lyfts. If the time that each takes to reach you is IID, what is the probability that all the Lyfts arrive first? What is the probability that all the UberX’s arrive first?**
 

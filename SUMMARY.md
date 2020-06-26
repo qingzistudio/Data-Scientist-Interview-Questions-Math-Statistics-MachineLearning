@@ -9,6 +9,7 @@
 ## Data Analysis
 
 * [A/B Test Questions](data-analysis/a-b-test-questions.md)
+* [Statistics](data-analysis/statistics.md)
 
 ## Probability
 
