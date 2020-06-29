@@ -14,7 +14,9 @@ similar matrix of A means that $$B=T^{-1}AT$$ , then $$B\vec v=T^{-1}AT\vec v=>T
 
 Sum of two invertible matrice may not invertible. For example A+\(-A\) = 0; product of 2 invertible matrice are invertible. 
 
+**4. What is the difference between matrix invertibility and diagonalizability? is a diagonalized matrix can be invertible?**
 
+invertibility is concerned with the eigenvalues are zero or not, and diagonalizability is concerned with the eigenvectors too few or equal to rank. 
 
 
 
