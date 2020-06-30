@@ -107,4 +107,13 @@ Count\(Fizz or Buzzed or FizzBuzzed\) = Count\(Fizzed\) + Count\(Buzzed\) - Coun
 
 **19. You have a 0.1% chance of picking up a coin with both heads, and a 99.9% chance that you pick up a fair coin. You flip your coin and it comes up heads 10 times. What’s the chance that you picked up the fair coin, given the information that you observed?**
 
-* 
+
+
+**What is the probability that a deck of 52 cards, divided into 6 draws with 9 cards each, will have two jokers in the same draw?**
+
+Method-1: the combination two jokers in any draws is  $$C_{4}^{52}=54\times53/2$$ , then the combination two jokers in the same draw is $$6\times C_2^9 = 9\times8\times3$$,  the probability is $$\frac{9\times8\times3}{27\times53}=8/53$$  
+Method-2:  the first Joker in the draw 1 is 9/54, the second joker in the draw 1 is $$P(\text{second joker in the draw 1|first joker in the draw 1}) = 8/53$$ , the probability of 2 jokers in the same draw is $$P(\text{first joker in the draw 1})*P(\text{second joker in the draw 1|first joker in the draw 1})*6=(6*9*8)/(53*53)=8/53$$ 
+
+  
+
+
