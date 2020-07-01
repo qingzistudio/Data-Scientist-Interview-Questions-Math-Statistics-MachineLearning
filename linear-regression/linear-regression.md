@@ -18,7 +18,10 @@ Sum of two invertible matrice may not invertible. For example A+\(-A\) = 0; prod
 
 invertibility is concerned with the eigenvalues are zero or not, and diagonalizability is concerned with the eigenvectors too few or equal to rank. 
 
+5. what the relationship between $$rank(A^TA) \text{ and  } rank(A)$$?
 
+$$rank(A^TA)=rank(A)$$.because $$rank(A^TA) = n-dim(Null(A^TA))$$ , rank\(A\)=n-dim\(Null\(A\)\), then for $$x\in Null(A), Ax=0, \text{then } A^TAx=0$$ , so $$x\in Null(A^TA)$$   
+if $$x\in Null(A^TA)$$, then $$A^TAx=0, \text{then } x^TA^TAx=0, $$so $$x\in Null(A)$$, we can conclude that $$Null(A^TA) \text{ and }Null(A) $$bijection.
 
 
 
